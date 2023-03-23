@@ -8,7 +8,7 @@
         window.onload = init;
         function init() {
             var map = document.getElementById("map");
-            map.onmouseover = showCoords;
+            map.onmousemove = showCoords;
         }
         function showCoords(eventObj) {
             var map = document.getElementById("coords");
